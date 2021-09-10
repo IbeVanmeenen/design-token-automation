@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "npm run dev",
+    "sd-build": "style-dictionary build",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "build": "cross-env ELEVENTY_ENV=prod eleventy",
     "seed": "cross-env ELEVENTY_ENV=seed eleventy"
@@ -27,10 +28,12 @@
     "postcss": "^7.0.17",
     "postcss-color-mix": "^1.1.0",
     "postcss-comment": "^2.0.0",
+    "postcss-extend": "^1.0.5",
     "postcss-import": "^12.0.1",
     "postcss-mixins": "^6.2.1",
     "postcss-simple-vars": "^5.0.2",
     "precss": "^4.0.0",
+    "style-dictionary": "^3.0.2",
     "uglify-js": "^3.6.0",
     "xml2js": "^0.4.19"
   },
